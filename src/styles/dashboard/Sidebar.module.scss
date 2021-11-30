@@ -1,0 +1,44 @@
+@import "../constants.scss";
+
+.sidebar {
+  width: 20%;
+  background-color: $theme-color-primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+
+  table {
+    border-collapse: collapse;
+
+    .selected {
+      background: $selected-nav-color;
+    }
+
+    .sidebarOptions {
+      width: 100%;
+      cursor: pointer;
+
+      td {
+        &:first-of-type {
+          text-align: right;
+          padding-right: 10px;
+        }
+
+        img {
+          height: 22px;
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-left: auto;
+        }
+
+        p {
+          color: $font-color-primary;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-right: auto;
+        }
+      }
+    }
+  }
+}
