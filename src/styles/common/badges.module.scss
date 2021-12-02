@@ -1,0 +1,45 @@
+.customBadge {
+  padding: 1px 10px;
+  border-radius: 14px;
+  display: flex;
+  height: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: max-content;
+
+  img {
+    height: 6px;
+    width: 6px;
+    margin: auto 10px;
+  }
+
+  p {
+    font-size: 9px;
+    line-height: 10px;
+    font-weight: 500 !important;
+  }
+
+  .receivedText {
+    color: rgba(11, 194, 129, 1) !important;
+  }
+
+  .requestedText {
+    color: rgba(0, 177, 237, 1) !important;
+  }
+
+  .inprogressText {
+    color: rgba(255, 140, 4, 1) !important;
+  }
+}
+
+.requested {
+  background-color: rgba(213, 246, 255, 1);
+}
+
+.inprogress {
+  background-color: rgba(255, 238, 218, 1);
+}
+
+.received {
+  background-color: rgba(202, 247, 231, 1);
+}

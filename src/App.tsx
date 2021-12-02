@@ -1,8 +1,8 @@
 import React from "react";
 
 //importing components
-import Main from "./components/dashboard/Main";
-import Sidebar from "./components/dashboard/Sidebar";
+import Main from "./components/dashboard/Main/index";
+import Sidebar from "./components/dashboard/Sidebar/index";
 
 //importing styles
 import styles from "./styles/dashboard/App.module.scss";

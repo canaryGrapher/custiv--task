@@ -1,10 +1,10 @@
 import React from "react";
 
 //importing assets
-import { projects, messages, suppliers, clients } from "../../assets";
+import { projects, messages, suppliers, clients } from "../../../assets";
 
 //importing styles
-import styles from "../../styles/dashboard/Sidebar.module.scss";
+import styles from "../../../styles/dashboard/Sidebar.module.scss";
 
 const Sidebar: React.FC = () => {
   return (

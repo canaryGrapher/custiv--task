@@ -1,0 +1,53 @@
+@import "../../../constants.scss";
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.filterBar {
+  margin-top: 20px;
+  text-align: left;
+  padding: 5px 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 6vh;
+
+  p {
+    color: $font-color-secondary;
+    font-size: 15px;
+  }
+
+  div {
+    display: flex;
+    align-self: center;
+
+    div {
+      height: 35px;
+
+      input {
+        width: 230px;
+        height: 35px;
+        padding: 0 10px 0 29px;
+        border: 1px solid rgba(86, 87, 134, 0.2);
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+
+      img {
+        height: 13px;
+        width: 13px;
+        position: absolute;
+        margin-top: 11px;
+        margin-left: 10px;
+      }
+    }
+
+    select {
+      width: 165px;
+      height: 35px;
+      border: 1px solid rgba(86, 87, 134, 0.2);
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 0 10px;
+    }
+  }
+}
